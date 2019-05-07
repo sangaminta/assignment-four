@@ -1,0 +1,46 @@
+.mainbox {
+    position: relative;
+    width: 404px;
+    height: 204px;
+    margin-left: 32%;
+    margin-top: 18%;
+}
+
+.box {
+    position: absolute;
+    border: 1px solid #083507;
+    padding: 50px 100px;
+    display: inline-block;
+}
+
+.box.left {
+    top: 0;
+    left: 0;
+    border-color: red;
+}
+
+.box.right {
+    top: 0;
+    right: 0;
+    border-color: yellow;
+}
+
+.box.bottom-left {
+    left: 0;
+    bottom: 0;
+    border-color: green;
+}
+
+.box.bottom-right {
+    right: 0;
+    bottom: 0;
+    border-color: red;
+}
+
+.floatbox {
+    border: 2px solid #BA55D3;
+    padding: 49px 49px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
